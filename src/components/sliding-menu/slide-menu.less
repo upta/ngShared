@@ -1,0 +1,45 @@
+﻿@menu-bg: #789abc;
+@menu-right-padding: 25px;
+@shadow: rgba(0,0,0,0.65);
+
+.slide-menu
+{
+    position: relative;
+    overflow: hidden;
+
+    .content
+    {
+        background-color: white;
+        position: relative;
+        -moz-transition: transform 0.25s cubic-bezier(.02, .01, .47, 1);
+        -o-transition: transform 0.25s cubic-bezier(.02, .01, .47, 1);
+        -webkit-transition: transform 0.25s cubic-bezier(.02, .01, .47, 1);
+        transition: transform 0.25s cubic-bezier(.02, .01, .47, 1);
+        z-index: 2;
+        box-shadow: -2px 0 10px 0 @shadow;
+    }
+
+    .menu
+    {
+        background-color: @menu-bg;
+        bottom: 0;
+        color: white;
+        left: 0;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        padding-right: @menu-right-padding;
+        position: absolute;
+        overflow: auto;
+        top: 0;
+        z-index: 1;
+    }
+
+    .toggle
+    {
+        color: @shadow;
+        cursor: pointer;
+        font-size: 30px;
+        padding: 6px;
+    }
+}

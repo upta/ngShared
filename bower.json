@@ -1,0 +1,15 @@
+{
+    "name": "ngShared",
+    "version": "0.0.0",
+    "description": "Various reusable angular components",
+    "authors": [
+        "Brian U"
+    ],
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "artifacts/bin",
+        "artifacts/obj",
+        "!/artifacts/**/*.*"
+    ]
+}

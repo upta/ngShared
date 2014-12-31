@@ -1,0 +1,11 @@
+﻿; Top-most EditorConfig file
+root = true
+
+; Unix-style newlines
+[*]
+end_of_line = lf
+
+; 4-column space indentation
+[*.{cs, ts, js, less, css, json}]
+indent_style = space
+indent_size = 4
