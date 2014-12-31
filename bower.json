@@ -8,8 +8,6 @@
     "license": "MIT",
     "private": true,
     "ignore": [
-        "artifacts/bin",
-        "artifacts/obj",
         "!/artifacts/**/*.*"
     ]
 }
